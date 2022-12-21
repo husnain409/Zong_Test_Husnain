@@ -1,0 +1,2506 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BoxCollision
+    - HurricaneVR.TechDemo.Scripts.DemoBackpack
+    - HurricaneVR.TechDemo.Scripts.DemoHolster
+    - HurricaneVR.TechDemo.Scripts.DemoUIManager
+    - MainScript
+    - SoundPlayTime
+    - Turn_Move
+    - UI_Manager
+    - spherescript
+    Hurricane.Shared.dll:
+    - HurricaneVR.Framework.Shared.HVRFingerSettings
+    - HurricaneVR.Framework.Shared.HVRGrabHaptics
+    - HurricaneVR.Framework.Shared.HVRInputSettings
+    HurricaneVR.Editor.dll:
+    - HurricaneVR.Editor.HVREditorPreferences
+    HurricaneVR.Framework.dll:
+    - HurricaneVR.Framework.Components.HVRControllerOffset
+    - HurricaneVR.Framework.Components.HVRControllerOffsets
+    - HurricaneVR.Framework.Components.HVRDontDestroy
+    - HurricaneVR.Framework.Components.HVRHandImpactHaptics
+    - HurricaneVR.Framework.Components.HVRHandPoseRecorder
+    - HurricaneVR.Framework.Components.HVRImpactHaptics
+    - HurricaneVR.Framework.Components.HVRMeshRendererHighlight
+    - HurricaneVR.Framework.Components.HVRRigidBodyOverrides
+    - HurricaneVR.Framework.Components.HVRThrowingCenterOfMass
+    - HurricaneVR.Framework.ControllerInput.HVRControllerEvents
+    - HurricaneVR.Framework.ControllerInput.HVRGlobalInputs
+    - HurricaneVR.Framework.ControllerInput.HVRInputManager
+    - HurricaneVR.Framework.ControllerInput.HVRPlayerInputs
+    - HurricaneVR.Framework.ControllerInput.HVRTrackedController
+    - HurricaneVR.Framework.Core.Bags.HVRForceGrabberBag
+    - HurricaneVR.Framework.Core.Bags.HVRSocketBag
+    - HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag
+    - HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber
+    - HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber
+    - HurricaneVR.Framework.Core.Grabbers.HVRSocket
+    - HurricaneVR.Framework.Core.HVRForceGrabberLaser
+    - HurricaneVR.Framework.Core.HVRGrabPoints
+    - HurricaneVR.Framework.Core.HVRGrabbable
+    - HurricaneVR.Framework.Core.HVRGrabbableChild
+    - HurricaneVR.Framework.Core.HVRHandPhysics
+    - HurricaneVR.Framework.Core.HVRManager
+    - HurricaneVR.Framework.Core.HVRSettings
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandAnimator
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorSettings
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandPose
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandPoser
+    - HurricaneVR.Framework.Core.HandPoser.HVRPhysicsPoser
+    - HurricaneVR.Framework.Core.HandPoser.HVRPosableGrabPoint
+    - HurricaneVR.Framework.Core.HandPoser.HVRPosableHand
+    - HurricaneVR.Framework.Core.Player.HVRCamera
+    - HurricaneVR.Framework.Core.Player.HVRCameraRig
+    - HurricaneVR.Framework.Core.Player.HVRCanvasFade
+    - HurricaneVR.Framework.Core.Player.HVRGhostHand
+    - HurricaneVR.Framework.Core.Player.HVRGlobalFadeFinder
+    - HurricaneVR.Framework.Core.Player.HVRHandStrengthHandler
+    - HurricaneVR.Framework.Core.Player.HVRHeadCollision
+    - HurricaneVR.Framework.Core.Player.HVRJointHand
+    - HurricaneVR.Framework.Core.Player.HVRPlayerController
+    - HurricaneVR.Framework.Core.Player.HVRPlayerWaist
+    - HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler
+    - HurricaneVR.Framework.Core.Player.HVRTeleportMarker
+    - HurricaneVR.Framework.Core.Player.HVRTeleporter
+    - HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings
+    - HurricaneVR.Framework.Core.ScriptableObjects.HVRJointSettings
+    - HurricaneVR.Framework.Core.ScriptableObjects.HVRRecoilSettings
+    - HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketFilter
+    - HurricaneVR.Framework.Core.Sockets.HVRSocketContainer
+    - HurricaneVR.Framework.Core.Sockets.HVRSocketHoverMaterial
+    - HurricaneVR.Framework.Core.Sockets.HVRSocketHoverScale
+    - HurricaneVR.Framework.Core.Sockets.HVRSocketable
+    - HurricaneVR.Framework.Core.Sockets.HVRSocketableTags
+    - HurricaneVR.Framework.Core.Sockets.HVRTagSocketFilter
+    - HurricaneVR.Framework.Core.Stabbing.HVRStabbableSettings
+    - HurricaneVR.Framework.Core.Stabbing.HVRStabberSettings
+    - HurricaneVR.Framework.Core.UI.HVRInputModule
+    - HurricaneVR.Framework.Core.UI.HVRUIPointer
+    - HurricaneVR.Framework.Core.Utils.AxisLines
+    - HurricaneVR.Framework.Core.Utils.HVRObjectCollisionDisabler
+    - HurricaneVR.Framework.Core.Utils.HVRShoulderGrabber
+    - HurricaneVR.Framework.Core.Utils.HVRShoulderSocket
+    - HurricaneVR.Framework.Core.Utils.HVRTimeManager
+    - HurricaneVR.Framework.Core.Utils.SFXPlayer
+    - HurricaneVR.Framework.Weapons.Guns.HVRGunHaptics
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+  sceneClasses:
+    Assets/Test_Map.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1548}
+    - Class: 114
+      Script: {instanceID: 1552}
+    - Class: 114
+      Script: {instanceID: 1636}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 1704}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1814}
+    - Class: 114
+      Script: {instanceID: 1816}
+    - Class: 114
+      Script: {instanceID: 1824}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 1882}
+    - Class: 114
+      Script: {instanceID: 1884}
+    - Class: 114
+      Script: {instanceID: 1906}
+    - Class: 114
+      Script: {instanceID: 1928}
+    - Class: 114
+      Script: {instanceID: 1930}
+    - Class: 114
+      Script: {instanceID: 1960}
+    - Class: 114
+      Script: {instanceID: 1962}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 2084}
+    - Class: 114
+      Script: {instanceID: 2130}
+    - Class: 114
+      Script: {instanceID: 2168}
+    - Class: 114
+      Script: {instanceID: 2212}
+    - Class: 114
+      Script: {instanceID: 2304}
+    - Class: 114
+      Script: {instanceID: 2306}
+    - Class: 114
+      Script: {instanceID: 2318}
+    - Class: 114
+      Script: {instanceID: 2330}
+    - Class: 114
+      Script: {instanceID: 2358}
+    - Class: 114
+      Script: {instanceID: 2430}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 2530}
+    - Class: 114
+      Script: {instanceID: 2536}
+    - Class: 114
+      Script: {instanceID: 2570}
+    - Class: 114
+      Script: {instanceID: 2600}
+    - Class: 114
+      Script: {instanceID: 2634}
+    - Class: 114
+      Script: {instanceID: 2668}
+    - Class: 114
+      Script: {instanceID: 2772}
+    - Class: 114
+      Script: {instanceID: 2860}
+    - Class: 114
+      Script: {instanceID: 2868}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 2886}
+    - Class: 114
+      Script: {instanceID: 2894}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2974}
+    - Class: 114
+      Script: {instanceID: 3014}
+    - Class: 114
+      Script: {instanceID: 3036}
+    - Class: 114
+      Script: {instanceID: 3062}
+    - Class: 114
+      Script: {instanceID: 3132}
+    - Class: 114
+      Script: {instanceID: 3158}
+    - Class: 114
+      Script: {instanceID: 3180}
+    - Class: 114
+      Script: {instanceID: 3208}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3272}
+    - Class: 114
+      Script: {instanceID: 3274}
+    - Class: 114
+      Script: {instanceID: 3298}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3322}
+    - Class: 114
+      Script: {instanceID: 3338}
+    - Class: 114
+      Script: {instanceID: 3350}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3370}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3400}
+    - Class: 114
+      Script: {instanceID: 3466}
+    - Class: 114
+      Script: {instanceID: 3480}
+    - Class: 114
+      Script: {instanceID: 3482}
+    - Class: 114
+      Script: {instanceID: 3506}
+    - Class: 114
+      Script: {instanceID: 3516}
+    - Class: 114
+      Script: {instanceID: 3518}
+    - Class: 114
+      Script: {instanceID: 3520}
+    - Class: 114
+      Script: {instanceID: 3546}
+    - Class: 114
+      Script: {instanceID: 3594}
+    - Class: 114
+      Script: {instanceID: 3600}
+    - Class: 114
+      Script: {instanceID: 3696}
+    - Class: 114
+      Script: {instanceID: 3714}
+    - Class: 114
+      Script: {instanceID: 3718}
+    - Class: 114
+      Script: {instanceID: 3722}
+    - Class: 114
+      Script: {instanceID: 3788}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 3824}
+    - Class: 114
+      Script: {instanceID: 3890}
+    - Class: 114
+      Script: {instanceID: 3896}
+    - Class: 114
+      Script: {instanceID: 3984}
+    - Class: 114
+      Script: {instanceID: 3988}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 3994}
+    - Class: 114
+      Script: {instanceID: 4088}
+    - Class: 114
+      Script: {instanceID: 4096}
+    - Class: 114
+      Script: {instanceID: 4150}
+    - Class: 114
+      Script: {instanceID: 4156}
+    - Class: 114
+      Script: {instanceID: 4360}
+    - Class: 114
+      Script: {instanceID: 4400}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4448}
+    - Class: 114
+      Script: {instanceID: 4518}
+    - Class: 114
+      Script: {instanceID: 4522}
+    - Class: 114
+      Script: {instanceID: 4542}
+    - Class: 114
+      Script: {instanceID: 4554}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: efac1618052047d86b1815ee832d6109
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRotationTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 8bb60dd888742775f8fa5ada02408cac
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRAssaultRifle
+  - hash:
+      serializedVersion: 2
+      Hash: f115c7ce120fa96ccb67fe58f3bbdbff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: spherescript
+  - hash:
+      serializedVersion: 2
+      Hash: e95f14be455530e998cd4c1f2a284e9b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunBase
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: cb0e06327eb5fb4e8b9ee1ad8caa7177
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.ScriptableObjects
+    className: HVRRecoilSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 7146a680cd6a42f884a88a5305c13835
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: cf675537aaf0063d2f920fa7f62329d9
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRAutoDropMagazine
+  - hash:
+      serializedVersion: 2
+      Hash: ab4ede93558750a3392dc37e12a1c028
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: cb69d114f3239194cd6e55d632666098
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoLockedDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 62fef86270a167c41a606cfca1ecc156
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 49f18158f17202e99a68281b27a89dd4
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRLever
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2d2b9bebc3d1bbf4f2cebce4b012bc9f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadUpEvents
+  - hash:
+      serializedVersion: 2
+      Hash: fed2f064116d2a8fdfea40cf8386f1fb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRPosableHand
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: eb08a17383b95408b7c8f4b4611ff77d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRHandGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 92ced391178e768df7890835e553e41b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleportCollisonHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 19c8f50a13faf2ca8b55011467237ba6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRotationLimiter
+  - hash:
+      serializedVersion: 2
+      Hash: 10ae549e431ceae901568a80785e4baa
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRControllerOffsets
+  - hash:
+      serializedVersion: 2
+      Hash: 8a874a8207a7664bdf44e61f28717254
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: e6f0efd0e20669d577e9d21526b3d3f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: f8ff1c125332264eaed09d3b6b0a30d5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRTimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: f082dd36da925ab826446b2311d5ad46
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRForceGrabberBag
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SimpleScript
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: a84868af56eedd9ff6cb982f648605b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoValveHologram
+  - hash:
+      serializedVersion: 2
+      Hash: ae749f98440986fd814d5292cdb63f67
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRForceGrabberLaser
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 94dbf74b4e32d45f77abbdb2cfbd3c75
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRManager
+  - hash:
+      serializedVersion: 2
+      Hash: e24d85065fc2be2c9e199dc8d02502e1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabbableChild
+  - hash:
+      serializedVersion: 2
+      Hash: 365bc516b95057efcf1194048e2d1832
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunBolt
+  - hash:
+      serializedVersion: 2
+      Hash: 566a6158fd2ad60c4a1d48fe1c810ff6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRPistol
+  - hash:
+      serializedVersion: 2
+      Hash: e083e7b27b7394e180661a795da5f811
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRSocketBag
+  - hash:
+      serializedVersion: 2
+      Hash: f0bc6f9fcfd48dd2d269fd7f0bb458e6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketHoverMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 83c09628c680259191c89bd4b14034ab
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRGrabPointSwapper
+  - hash:
+      serializedVersion: 2
+      Hash: 46c59d5d1a5e63604883610b659baee7
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: abc3bf9fed5eea6c6ec1fd9bdf36d7c0
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRScaleHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 209aea421066d1d7c810fc491097b4f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHolsterOrientation
+  - hash:
+      serializedVersion: 2
+      Hash: 805dda3c1e629a9b6aae8bdf5b9045f7
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRImpactHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 0f9b8e73fb960d5de69a4ed2cf3c6d6c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRBulletEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSafeDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 22d2956229d49a92e6a6946683c65bd5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRShotgunMagazine
+  - hash:
+      serializedVersion: 2
+      Hash: 71f31b2350a0ec02024cbbff4500d9c7
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.ScriptableObjects
+    className: HVRForcePullSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1b22002bdfadde197b6bd16d0a4164af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSafeDial
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 774aa6cd50ae14dfd14d6eceb8533e14
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabbableSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 61a75906772040c0be009b3057f41121
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRArrowLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 6519746f335bbc324f76b7941fd0e8cf
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDamageHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadRightEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 242e81d1c40c7dc4fbf76036b7bbaa75
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRPump
+  - hash:
+      serializedVersion: 2
+      Hash: 20d18c2753ce0c735730ab4d0fb1cafc
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRHandImpactHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 04a994890d3fd05e519e4bfc99873eef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2bdbdfd29ae156a056b41a2a9bfe43ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoBackpack
+  - hash:
+      serializedVersion: 2
+      Hash: 8c32eeddc2cfa5acd7bbb7c8a48586cb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRPooledEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: fd3d5448cf2a3e22d3ce862d0c1393ef
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRTagSocketable
+  - hash:
+      serializedVersion: 2
+      Hash: 2bbd7f3dc29445f1c57159ec874b983a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainScript
+  - hash:
+      serializedVersion: 2
+      Hash: 4f60ff347d4efee4ef8cc7f627735018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: cef47705f2fc7c6fa1d7aa95839ee234
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoKeypadButton
+  - hash:
+      serializedVersion: 2
+      Hash: d68e9573a3dc305c7d2ebb4dd456833d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoCodeGrabbing
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 0adb4693d196756942b7885d0354577b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRCollisionMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 4d16cfbaa8e821a2b370e80844a0e9bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 81f79d881ee1ade4b25583ccf41fba26
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRNockingPoint
+  - hash:
+      serializedVersion: 2
+      Hash: a9b2a6f6b174d17f6c544e956d720fc1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRHandGrabOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: e95f14be455530e998cd4c1f2a284e9b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRPistol
+  - hash:
+      serializedVersion: 2
+      Hash: 27e5341178f188b89bdc6495710b590c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5b62f7c06f76af41df0abd1dd7c475cf
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRGlobalInputs
+  - hash:
+      serializedVersion: 2
+      Hash: 81f79d881ee1ade4b25583ccf41fba26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHolster
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: FindMissingScriptsRecursively
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd23fd0d7261ffb604834d9784e2277
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRButton
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: cc49ff940137fe95184a71d69ee920ec
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRGunSounds
+  - hash:
+      serializedVersion: 2
+      Hash: 3bcf9e5e6d9a9cc8e87ba04a636fee74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoFullStabConfetti
+  - hash:
+      serializedVersion: 2
+      Hash: a27cadf518ad71ad278b183c76fd6b0c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTriggerButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 08ddd6375b45a8a176fe9e6bce1ad94b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRHandPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 81f79d881ee1ade4b25583ccf41fba26
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRShoulderSocket
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 853774e8ab8147028d6326ea988ec73a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoKeypad
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 84ed1aa4145d8cf97e39933101ea721e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRRequireOtherGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns.PartFinders
+    className: HVRChamberedCasingFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 2ab1f74090d7b74e29abbe7bdcefc656
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRSocketContainerGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 43f0e56eab162699bbb7d5ea1130d14f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRBolt
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 4886d7aafc3f950d61d2d223294391d6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: DebugTools
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 6663435805926faf16934aed992cd26b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: d655df74fa947712a511f4d0efe34822
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRPhysicsBow
+  - hash:
+      serializedVersion: 2
+      Hash: f438224c020e1907f183d8ad9b7cbd72
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRBowBase
+  - hash:
+      serializedVersion: 2
+      Hash: f50bed05b51799975d0998e5e8e2a9d7
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRCenterOfMassOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 90e8cfdc4560fbf5559ce9c2161ed4d1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandMirrorSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadLeftEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRAmmoReleaseAction
+  - hash:
+      serializedVersion: 2
+      Hash: 36ccc1a6b89db2be58442a6d5556540a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRIKTargets
+  - hash:
+      serializedVersion: 2
+      Hash: aa1ef1eff96fcb248deb7cddfd865946
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRHandColliderController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns.PartFinders
+    className: HVRMagazineFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8616abf4ebe5c3b7d80b8ed36c2d8f11
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.ScriptableObjects
+    className: HVRJointSettings
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRGlobalFadeFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: eb674066b5a0a41455433c7e93df1186
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRThrowingCenterOfMass
+  - hash:
+      serializedVersion: 2
+      Hash: 8269cb1dc3ef62672b7747e4005d8fb8
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UI_Manager
+  - hash:
+      serializedVersion: 2
+      Hash: 0784d4fd5b93bd75440d01eb2fac4233
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 81f79d881ee1ade4b25583ccf41fba26
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRSocket
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 3413300c1211be83abecb4c12dffeca5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: DebugVR
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: fe2d355deb0ca31d59a0a7cf4d141fc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: bcd47a0f9048355efce7b89cbe9e48da
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRBowAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Hurricane.Shared.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRRootFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 3c862d71140d6d6bb13ec33655ff7e59
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabberSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 365bc516b95057efcf1194048e2d1832
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunPart
+  - hash:
+      serializedVersion: 2
+      Hash: 0bffe95fa981ed10d59e5ebd6bfd2218
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleportOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRPhysicsHands
+  - hash:
+      serializedVersion: 2
+      Hash: a39551360e0f1f8a0f3e40a3c7dccff2
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRObjectCollisionDisabler
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: c0a75e8ddc744b3c90c5165fb43b1eeb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHeavyDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 22d2956229d49a92e6a6946683c65bd5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRAmmo
+  - hash:
+      serializedVersion: 2
+      Hash: 7085d0450194e34480b9cb069bbdca16
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components.Creators
+    className: HVRPhysicsLeverCreator
+  - hash:
+      serializedVersion: 2
+      Hash: b1a4580196175f84331ad03df5040617
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRMeshRendererHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: 76f6c027b4a1070f15f35cc1021d84ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundPlayTime
+  - hash:
+      serializedVersion: 2
+      Hash: 95694037a48c6e9218f75afa23bc30cf
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRArrowPassthrough
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 6be5f6901bab02c71190787ea138539a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRRecoil
+  - hash:
+      serializedVersion: 2
+      Hash: b7bb2c6b4cb7813ed59731e3ad55e3d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSocketables
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabberManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 88b837ef123ce87bb87e5ae7aaffe764
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: ItemResetter
+  - hash:
+      serializedVersion: 2
+      Hash: 6c16f213a1e57d07e0db35ab60bb50c5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandPose
+  - hash:
+      serializedVersion: 2
+      Hash: 43693722f9850ef9f3bc82bc22aaf026
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRGhostHand
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: e2ef2f51b76fbf5d12f65598a1db09ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHatchDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 2ab1f74090d7b74e29abbe7bdcefc656
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRShoulderGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 445b759b55170d69b336179b14456a26
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRBullet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDestroyTimer
+  - hash:
+      serializedVersion: 2
+      Hash: ccccf9af9e5232050ab14a0b6632cc52
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsButton
+  - hash:
+      serializedVersion: 2
+      Hash: b2f28f3c8939c16a51bb63ea14e9352e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRCameraRig
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a27cadf518ad71ad278b183c76fd6b0c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRGripButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRPrimaryButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 78a245ee6b009463ad69cc4a3af9f875
+    assemblyName: HurricaneVR.Editor.dll
+    namespaceName: HurricaneVR.Editor
+    className: HVREditorPreferences
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 2c0a467ee7950c941c2dd8ef6b974a7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 00a69090e8d5851ae4cb5cc6fdb6441d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketHoverScale
+  - hash:
+      serializedVersion: 2
+      Hash: e21ef1c0d7c9d39078122429cbedf8b6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns.PartFinders
+    className: HVRChamberedRoundFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 45df818a6d4bc6874c2422e00cfdb813
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoPowerUnit
+  - hash:
+      serializedVersion: 2
+      Hash: 7aae15d4e59af0c19ecf88a6e70a7f1d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRigidbodyLocker
+  - hash:
+      serializedVersion: 2
+      Hash: bd5a3ad9e72490a9853dc269a541c9b0
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRGrabbableSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 1cbfb52ee0b6672a4187b83faf128e89
+    assemblyName: Hurricane.Shared.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRInputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexJitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7536c3aaa3b668b80f1580147a12d30d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: b51614b2839183c26c9be312803b7a38
+    assemblyName: Hurricane.Shared.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRFingerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e06e21da1704726e3db7a98725a0b459
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRControllerOffset
+  - hash:
+      serializedVersion: 2
+      Hash: ca7f3db84d1aeb775b0d63a6fbf4fe61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoKeyHologram
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoxCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 64733390cc9ac407af7ef3f725278546
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRForceGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: e1a02a0ee1b8c94f2cbff00b1fae353f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 442d2e6df84245a681f510c88bf0c8eb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRPosableGrabPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 5118f61bc61f62e2f4289310d3b1edb9
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketableTags
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4e516d6d64d44446989426b8f725c6f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a66f5bb449de1de8ddff0a6d83b798e1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandPoser
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTriggerTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRThumbTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 125c22306c1265c4c850cb8257697f8c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRCanvasFade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 1e6bdda2b9ada8e9cb3f089af298493a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDestructible
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoLeverDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRMenuButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 2aa573e9c8aac892419b05ae18b17e55
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRHandPoseRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 349ae0a7883f82f6783ec4742f7b81da
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRControllerEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 3502b74a92db93ec01819dd583cb680a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRTagSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: b8e001b85ae47a7139686abcd0329165
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRHandStrengthHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 880da2d803cb5111f2212e325f5b5cb3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDial
+  - hash:
+      serializedVersion: 2
+      Hash: 10b1919ccbda2374d3d472390908b2fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoLock
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 76e1a1939dd7841a89c210b81524d614
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleporter
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: df83ebf6a79a8ba74d1ba7f800af14b2
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRShotgunAmmoSocket
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 768e0b2401d6f4fdefbb3f86c12c662e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRComments
+  - hash:
+      serializedVersion: 2
+      Hash: 6caf8adc654c2551c3843b14e559047f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRSlide
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabPoints
+  - hash:
+      serializedVersion: 2
+      Hash: 8224519eb58e76212958a5fbce77fd9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Turn_Move
+  - hash:
+      serializedVersion: 2
+      Hash: a1ca1237bad0f30ea5ba8f4060929114
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b7582be9f3a507dc34c5373dbe56bf49
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRChargingHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRJoystickButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: e95f14be455530e998cd4c1f2a284e9b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRAutomaticGun
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b63fa9e55b7a25fede51d4dc4ccb3ba
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRCollisionEvents
+  - hash:
+      serializedVersion: 2
+      Hash: c49ea9ad6564907b12e6d581b6d0c1bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSlidingDoor
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: b6a33fdb344a7dac59596a87d63afc68
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRPlayerWaist
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 3992005e01fcd6564f2f821b1c0468f6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRPlayerInputs
+  - hash:
+      serializedVersion: 2
+      Hash: ff9bb8c2a3b95b22759d99728aff2005
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a4b9c7983bc31c585a8d9afe83d3e247
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRTrackedController
+  - hash:
+      serializedVersion: 2
+      Hash: e2ef2f51b76fbf5d12f65598a1db09ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoGlassRotate
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d73ff7336ddb91dd89aba05ba3fc2a1f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRHandGrabEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRPrimaryTouchButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: ee4288405c0355c625f87edfd800c81e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: SFXPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRInvalidTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: e5e4fe39256d84d00af23ba7c7dde68b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRGrabbableBag
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: ee159a38d2746465158884965b9e0982
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.UI
+    className: HVRInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: c3586d37573594417cdab5731da446e8
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRMagazineSocket
+  - hash:
+      serializedVersion: 2
+      Hash: 41b5395bdb531ac1b19938823da21493
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0e3d4b70b6b62ffb33dbeee784cb742c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRParentOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackpadButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.UI
+    className: HVRGraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDontDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 70a53b20e4f7504ccd7005a62542ef4d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRotationSFX
+  - hash:
+      serializedVersion: 2
+      Hash: 3375c3d749f8f4cad889721b431bdc27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: ab4ede93558750a3392dc37e12a1c028
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRPhysicsGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 22c70273301f5dc1819c0ddf5e2f7a25
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRStringSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRJoystickTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 65a5be1d30809337c7877f2e35fe8a4a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRigidBodyOverrides
+  - hash:
+      serializedVersion: 2
+      Hash: 0eba2a12ba450dcf7510bfa601429dae
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRTwoHandStrength
+  - hash:
+      serializedVersion: 2
+      Hash: 683b24af184cbfdb512c22441a86cf4d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.UI
+    className: HVRUIPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 8231db8edd1c1cae11ffcc6106fd8249
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRPhysicsPoser
+  - hash:
+      serializedVersion: 2
+      Hash: 6a97a8b6d22c69bb523a499cb4fffd59
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: AxisLines
+  - hash:
+      serializedVersion: 2
+      Hash: bad88c66446a4037e3a273b129764b43
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRRayCastGun
+  - hash:
+      serializedVersion: 2
+      Hash: 1a941e55c0ae9e8baeba1384a1984d36
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRShotgun
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: ffc57c4592a46a608f159364213d167c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoValveLock
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: dcfe23497b8deb29c06de6a16a9e334f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRingHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: efae10a878ee6ecd3b22fa46a670dfed
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRCockingHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 1db7ff225941f0b7e535f000bd660ecb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: cd263bb9ab9879b0875aaf5a8119a487
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: fb4574ff76112337538455d4cc720e5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 65fd552f027809dd9816c0959b5f5fda
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDamageProvider
+  - hash:
+      serializedVersion: 2
+      Hash: fe1fdeffc2067077b2f1a90b210c2532
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRSecondaryTouchButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 57f9d5cc1d76c7d3e8d7610dbcd46e91
+    assemblyName: Hurricane.Shared.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRGrabHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e80c1450883443c68d6c2dade213536f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
+  - hash:
+      serializedVersion: 2
+      Hash: c8cc8bb10c2882fdedfa8f5735d89510
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRStringSocketable
+  - hash:
+      serializedVersion: 2
+      Hash: 2acf03cb1ad99a10a2f5983cd88c5f22
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDestroyListener
+  - hash:
+      serializedVersion: 2
+      Hash: 884c4353638cbc1387a4c5b1d17609fb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRArrow
+  - hash:
+      serializedVersion: 2
+      Hash: 6d64b11ffc13ee03fb6c45eafac95b72
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRTriggerAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: b1a4580196175f84331ad03df5040617
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRMeshGlowHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: 04ce23239df84aabf49df7b225b4badd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoDummyArm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: e244702e0dc05782229aa524e4d757f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: 98b181b8674ee7ff1d1936e7a3df42b1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRGrabbableSocketExcluder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRNotStabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 23df33c63c85dc744f5898583b23fe09
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: b1474e74c5b21558a42a0a139309ed37
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGrabMagazine
+  - hash:
+      serializedVersion: 2
+      Hash: 11319334e5365797f8056694f9b5dae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: f08a315c1b3f3f0b772572543adf6f8e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRShotGun
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadDownEvents
+  - hash:
+      serializedVersion: 2
+      Hash: ce8a839438bfb2d93323488784997ad1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRHeadCollision
+  - hash:
+      serializedVersion: 2
+      Hash: ba41629ef242602fb9d3cdea89ab79ea
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRGrabbableImpactHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRSecondaryButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: b6514f552bd2ee9e736a5678aa7f7de3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: 8a4e800135e4141b4ce7a77efa4d4231
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsDrawer
+  - hash:
+      serializedVersion: 2
+      Hash: 28c12c5c8be503be7f0fb139dc22bd18
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleportMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 81f79d881ee1ade4b25583ccf41fba26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoPassthroughSocket
+  - hash:
+      serializedVersion: 2
+      Hash: fa75cb59075236c38dcdbdeaba39bece
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b9025d8de9fa2649a0d4f8d0891d6875
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsDial
+  - hash:
+      serializedVersion: 2
+      Hash: 0cec98ed3de8fa6b23da4596fabc9383
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoManualTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 77879c305f6ec95262421ca1b7e55050
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRXRInputController
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 47930f3b40e24ef5b3b5e3d9ada7097a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRClimbable
+  - hash:
+      serializedVersion: 2
+      Hash: f082dd36da925ab826446b2311d5ad46
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRTriggerGrabbableBag
+  - hash:
+      serializedVersion: 2
+      Hash: 0c7b6c52bbb899096277f259b02104d6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketable
+  - hash:
+      serializedVersion: 2
+      Hash: dd7520b7d4e690e8c593273e7b9fbe80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandMirrorer
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 105dfc98253ea40aa14b7071b2d339b8
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRJointHand
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: d7c0c0437d10c7c9fa9735814b326219
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsLever
+  platform: 13
+  scenePathNames:
+  - Assets/Test_Map.unity
+  playerPath: C:/Users/Husnain Ali/Documents/Zong-Test-main/Zong-Test-main/Zong-Test-main/Zong-Test/test.apk

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HurricaneVR.Framework", "HurricaneVR.Framework.csproj", "{43e0cea5-286b-e1a9-af9d-47ecfcfbd564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{99ba995a-c647-5f2a-df1f-c313ba3f557f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hurricane.Shared", "Hurricane.Shared.csproj", "{09e7d128-8802-40a4-5257-0db4b04cce0c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HurricaneVR.Editor", "HurricaneVR.Editor.csproj", "{fc237a4b-4ef6-174f-621f-4de8411cc6fe}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43e0cea5-286b-e1a9-af9d-47ecfcfbd564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43e0cea5-286b-e1a9-af9d-47ecfcfbd564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43e0cea5-286b-e1a9-af9d-47ecfcfbd564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43e0cea5-286b-e1a9-af9d-47ecfcfbd564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99ba995a-c647-5f2a-df1f-c313ba3f557f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99ba995a-c647-5f2a-df1f-c313ba3f557f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99ba995a-c647-5f2a-df1f-c313ba3f557f}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99ba995a-c647-5f2a-df1f-c313ba3f557f}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09e7d128-8802-40a4-5257-0db4b04cce0c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09e7d128-8802-40a4-5257-0db4b04cce0c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09e7d128-8802-40a4-5257-0db4b04cce0c}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09e7d128-8802-40a4-5257-0db4b04cce0c}.Release|Any CPU.Build.0 = Release|Any CPU
+		{fc237a4b-4ef6-174f-621f-4de8411cc6fe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fc237a4b-4ef6-174f-621f-4de8411cc6fe}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fc237a4b-4ef6-174f-621f-4de8411cc6fe}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{fc237a4b-4ef6-174f-621f-4de8411cc6fe}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
